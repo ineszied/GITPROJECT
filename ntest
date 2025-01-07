@@ -1,0 +1,9 @@
+ def
+ # Crée un fichier et écrit dedans
+with open("mon_fichier.txt", "w") as fichier:
+    fichier.write("Ceci est mon premier fichier suivi par Git !\n")
+    fichier.write("Je peux modifier ce contenu et suivre les changements.")
+
+print("Fichier créé avec succès : 'mon_fichier.txt'") 
+
+
